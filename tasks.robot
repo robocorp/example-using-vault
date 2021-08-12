@@ -1,5 +1,5 @@
 # ## Using Vault Example
-# This simple robot shows how to use the Vault functionality locally and in Robocorp Cloud
+# This simple robot shows how to use the Vault functionality locally and in Control Room.
 #
 # > NOTE: This example needs some manual configuration steps. You can find the full tutorial and instructions on [Robocorp's documentation site](https://robocorp.com/docs/development-howtos/variables-and-secrets/vault).
 #
@@ -7,7 +7,7 @@
 # In Robocorp Lab, click on the `>>` button above to run the whole example, or you can execute each cell by using the `>` button.
 
 *** Settings ***
-Documentation     Example robots to show the use the Vault functionality locally and in Robocorp Cloud
+Documentation     Using the vault functionality locally and in Control Room.
 Library           RPA.Robocloud.Secrets
 Variables         variables.py
 
