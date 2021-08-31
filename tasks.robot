@@ -4,11 +4,11 @@
 # > NOTE: This example needs some manual configuration steps. You can find the full tutorial and instructions on [Robocorp's documentation site](https://robocorp.com/docs/development-howtos/variables-and-secrets/vault).
 #
 #
-# In Robocorp Lab, click on the `>>` button above to run the whole example, or you can execute each cell by using the `>` button.
+# In Robocorp Lab, click on the `>> Run all` button above to run the whole example, or you can execute each cell by using the `> Run cell` button.
 
 *** Settings ***
 Documentation     Using the vault functionality locally and in Control Room.
-Library           RPA.Robocloud.Secrets
+Library           RPA.Robocorp.Vault
 Variables         variables.py
 
 *** Tasks ***

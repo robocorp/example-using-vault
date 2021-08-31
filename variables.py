@@ -1,5 +1,5 @@
-from RPA.Robocloud.Secrets import Secrets
+from RPA.Robocorp.Vault import Vault
 
-secrets = Secrets()
-USER_NAME = secrets.get_secret("credentials")["username"]
-PASSWORD = secrets.get_secret("credentials")["password"]
+secret = Vault().get_secret("credentials")
+USER_NAME = secret["username"]
+PASSWORD = secret["password"]
