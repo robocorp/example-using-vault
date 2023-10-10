@@ -8,4 +8,4 @@ A simple example demonstrating the use of the [RPA.Robocorp.Vault](https://roboc
    -  The values can be anything as they are only logged by the example implementation.
 
 
-> NOTE: This example needs some manual configuration steps. You can find the full tutorial and instructions on [Robocorp's documentation site](https://robocorp.com/docs/development-guide/variables-and-secrets/vault).
+> You can find the full tutorial and instructions on Robocorp Vault on the [documentation site](https://robocorp.com/docs/development-guide/variables-and-secrets/vault).
